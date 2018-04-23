@@ -71,7 +71,7 @@ launch_data:
     # eosio.unregd:
     #   abi:
     #     hash: ...
-    #     url: https://github.com/eoscanada/eos-bios-launch-data/raw/master/contracts/eosio.unregd.abi
+    #     url: https://gitcdn.link/repo/eoscanada/eos-bios-launch-data/master/contracts/eosio.unregd.abi
     #   code:
     #     hash: ...
-    #     url: https://github.com/eoscanada/eos-bios-launch-data/raw/master/contracts/eosio.unregd.wasm
+    #     url: https://gitcdn.link/repo/eoscanada/eos-bios-launch-data/master/contracts/eosio.unregd.wasm
