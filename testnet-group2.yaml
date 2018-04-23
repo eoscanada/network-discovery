@@ -1,52 +1,53 @@
 testnet: true
 
-email_support: support@example.com
-email_abuse: abuse@example.com
-email_tech: tech@example.com
+email_support: support@eoscanada.com
+email_abuse: abuse@eoscanada.com
+email_tech: tech@eoscanada.com
 
-social_twitter: https://twitter/example
-social_telegram: https://t.me/link
-social_facebook: ...
-social_github: https://github.com/exampleorg
-social_youtube: https://youtube.com/example
+social_twitter: https://twitter.com/EOS_Canada
+social_telegram: https://t.me/EOSCanada
+social_facebook: 
+social_github: https://github.com/eoscanada
+social_youtube: https://www.youtube.com/channel/UCoTHlEOVdeN9NOc5b5C1-vQ
+social_steemit: https://steemit.com/@eos-canada
 
-social_keybase: https://keybase.io/exampleuser  # Potentially used for
+social_keybase: https://keybase.io/abourget     # Potentially used for
                                                 # cryptographic
                                                 # operations. Please
                                                 # prodive this one.
 pgp_public_key: ....
 
-eosio_account_name: example  # The account you go by
-eosio_p2p: peering.example.com:9876  # This could be hidden until
+eosio_account_name: eoscanada  # The account you go by
+eosio_p2p: peering.eoscanada.com:9876  # This could be hidden until
                                      # after launch.  You will have it
                                      # in your local configuration.
-eosio_http: http://http.example.com:8888
-eosio_https: https://http.example.com
+eosio_http: http://http.eoscanada.com
+eosio_https: https://http.eoscanada.com
 eosio_initial_authority:  # To be injected in a newly created network where you participate.
   owner:
     threshold: 1
     keys:
-    - public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+    - public_key: EOS8NijGLHT8WyDmt2nqMwfP1hr8EiYx5JCYBWSP9S26WgbeugvSJ
       weight: 1
   active:
     threshold: 1
     keys:
-    - public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+    - public_key: EOS8NijGLHT8WyDmt2nqMwfP1hr8EiYx5JCYBWSP9S26WgbeugvSJ
       weight: 1
-eosio_appointed_block_producer_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+eosio_appointed_block_producer_signing_key: EOS8NijGLHT8WyDmt2nqMwfP1hr8EiYx5JCYBWSP9S26WgbeugvSJ
 
-website: "https://example.com"
-introduction_post_url: "https://steemit.com/something/"  # Like your BP candidacy proposal.
+website: "https://www.eoscanada.com"
+introduction_post_url: "https://steemit.com/eos/@eos-canada/introducing-eos-canada-a-leading-block-producer-candidate"  # Like your BP candidacy proposal.
 
-organization_name: EOS Example
-organization_tagline: The example in the EOS space  # For websites who
+organization_name: EOS Canada
+organization_tagline: Leading through technology  # For websites who
                                                     # want to feed
                                                     # from the graph
                                                     # created herein.
-logo_url_1024: "https://example.com/logo_1024x1024.jpg"
-logo_url_256: "https://example.com/logo_256x256.png"
+logo_url_1024: "https://storage.googleapis.com/eoscanada/eosio-canada-logo-stacked-840.png"
+logo_url_256: "https://storage.googleapis.com/eoscanada/eosio-canada-logo-stacked-420.png"
 
-timezone: Africa/Abidjan  # From https://en.m.wikipedia.org/wiki/List_of_tz_database_time_zones, only non-deprecated ones.
+timezone: America/Montreal  # From https://en.m.wikipedia.org/wiki/List_of_tz_database_time_zones, only non-deprecated ones.
 
 launch_data:
 
@@ -60,14 +61,7 @@ launch_data:
   # necessary to automate the steps of network boot.
   wingmen:
   - discovery_url: https://github.com/eosexample1/network-discovery/raw/master/mainnet.yaml
-    comment: "because of this and that.."  # optional field
-    weight: 950   # normalized from 0.0 to 1.0
-  - discovery_url: https://github.com/eosexample2/network-discovery/raw/master/mainnet.yaml
-    weight: 930
-  - discovery_url: https://github.com/eosexample3/network-discovery/raw/master/mainnet.yaml
-    weight: 25
-  - discovery_url: https://github.com/eosexample4/network-discovery/raw/master/mainnet.yaml
-    weight: 42
+    weight: 0.0   # normalized from 0.0 to 1.0
 
   boot_sequence:
     hash:
