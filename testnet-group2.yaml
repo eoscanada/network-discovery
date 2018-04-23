@@ -43,6 +43,10 @@ organization_tagline: The example in the EOS space  # For websites who
                                                     # want to feed
                                                     # from the graph
                                                     # created herein.
+logo_url_1024: "https://example.com/logo_1024x1024.jpg"
+logo_url_256: "https://example.com/logo_256x256.png"
+
+timezone: Africa/Abidjan  # From https://en.m.wikipedia.org/wiki/List_of_tz_database_time_zones, only non-deprecated ones.
 
 launch_data:
 
@@ -67,7 +71,7 @@ launch_data:
 
   boot_sequence:
     hash:
-    url: https://github.com/eoscanada/network-discovery/raw/master/mainnet-bootseq.yaml
+    url: https://github.com/eoscanada/network-discovery/raw/master/testnet-group2-bootseq.yaml
 
   snapshot:
     hash: af36de814f2b63484cbc565effc03c3b9277882d01ff5c0c85f924cf4b53a9d5
