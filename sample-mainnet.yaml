@@ -35,6 +35,11 @@ eosio_initial_authority:  # To be injected in a newly created network where you 
     keys:
     - public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
       weight: 1
+
+# The following one is used by the boot to setup the initial appointed
+# block producer's signing key.  It is not used elsewhere. If you
+# don't think you'll ever be an Appointed Block Producer, you can
+# ignore this line.
 eosio_appointed_block_producer_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 
 website: "https://example.com"
