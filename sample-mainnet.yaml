@@ -57,11 +57,11 @@ launch_data:  # `eos-bios` tooling requirement.
   # with, you've discussed and think they are competent to 1) not
   # screw up a launch and, 2) run the network and take good decisions.
   #
-  # By tagging along wingmans, we are effectively creating a
+  # By tagging along wingmen, we are effectively creating a
   # distributed graph.  `eos-bios` will be able to traverse this graph
   # and create a full portrait of the community, with all information
   # necessary to automate the steps of network boot.
-  wingmans:
+  wingmen:
   - discovery_url: https://github.com/eosexample1/network-discovery/raw/master/mainnet.yaml
     comment: "because of this and that.."  # optional field
     weight: 1.0  # from 0.0 to 1.0, floating point number
