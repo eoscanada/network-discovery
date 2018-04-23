@@ -1,3 +1,5 @@
+# See ref sample file at: https://github.com/eoscanada/network-discovery/blob/master/sample-mainnet.yaml
+
 mainnet: true  # REQUIRED, one or the other, not both.
 # testnet: true
 # Marking mainnet=true means we automatically disabling all the TESTNET features in the boot_sequence
