@@ -8,8 +8,8 @@ participation in an EOS launch.  By linking to their `wingmans`, BPs
 effectively create a graph, weighted according to their trust in their
 peers.
 
-The `eos-bios` tool will be able to traverse the graph, fetch changes
-and diff from a locally cached copy of the graph.
+The `eos-bios` tool will be able to traverse the graph, fetch any
+changes and run `diff` from a locally cached copy of the graph.
 
 The main pattern is:
 * In your discovery data, you put hashes of the content you vouch
