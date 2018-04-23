@@ -76,10 +76,11 @@ boot_sequence:
     account: eosio
     contract_name_ref: eosio.system
 
-# - op: system.destroy_accounts
-#   label: Disabling authorization for system accounts
-#   data:
-#     accounts:
-#     - eosio
-#     - eosio.msig
-#     - eosio.token
+- op: system.destroy_accounts
+  label: Disabling authorization for system accounts
+  data:
+    accounts:
+    - eosio
+    - eosio.msig
+    - eosio.token
+    TESTNET_KEEP_ACCOUNTS: true
