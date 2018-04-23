@@ -35,6 +35,7 @@ eosio_initial_authority:  # To be injected in a newly created network where you 
     keys:
     - public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
       weight: 1
+eosio_appointed_block_producer_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 
 website: "https://example.com"
 introduction_post_url: "https://steemit.com/something/"  # Like your BP candidacy proposal.
@@ -45,7 +46,7 @@ organization_tagline: The example in the EOS space  # For websites who
                                                     # from the graph
                                                     # created herein.
 
-launch_data:
+launch_data:  # `eos-bios` tooling requirement.
 
   # other BPs' discovery_url you're comfortable launching the network
   # with, you've discussed and think they are competent to 1) not
@@ -67,12 +68,14 @@ launch_data:
     weight: 0.0  # Just a link in the network, not vouching for them really.
 
   boot_sequence:
-    hash:
+    hash: 325d38f8e016cabb55e89838b8715be6da18f00c06d707d1c334b499ed4cff55
     url: https://github.com/eoscanada/network-discovery/raw/master/testnet-group2-bootseq.yaml
+    comment: ""
 
   snapshot:
     hash: af36de814f2b63484cbc565effc03c3b9277882d01ff5c0c85f924cf4b53a9d5
-    url: https://github.com/eoscanada/eos-bios-launch-data/raw/master/snapshot/snapshot.csv
+    url: https://github.com/eosdublin/eos-bios-launch-data/raw/master/snapshot/snapshot.csv
+    comment: "Built by Rob on Nov 21st 2016 on his machine."
   # snapshot_unregistered:
   #   hash:
   #   url:
@@ -82,6 +85,7 @@ launch_data:
       abi:
         hash: 08249507deccffd333d240e83f87f43dca6158f61a611969a8182732d79e1069
         url: https://github.com/eoscanada/eos-bios-launch-data/raw/master/contracts/eosio.bios.abi
+        comment: "Taken from github.com/eosio/eos, built from git commit abcdef1123 on Jan 21st 2018, by EOS Example"
       code:
         hash: 2c63d42a297f8378af806e08ddc5ddbe3aed7a078124d53075dafb7ac6b460e0
         url: https://github.com/eoscanada/eos-bios-launch-data/raw/master/contracts/eosio.bios.wasm

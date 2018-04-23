@@ -33,6 +33,7 @@ eosio_initial_authority:  # To be injected in a newly created network where you 
     keys:
     - public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
       weight: 1
+eosio_appointed_block_producer_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 
 website: "https://example.com"
 introduction_post_url: "https://steemit.com/something/"  # Like your BP candidacy proposal.
