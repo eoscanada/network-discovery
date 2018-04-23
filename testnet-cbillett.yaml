@@ -36,7 +36,7 @@ launch_data:
   #   weight: 0.0   # normalized from 0.0 to 1.0
 
   boot_sequence:
-    hash: "a123123"
+    hash: "282461996d2372a3e5ef0402a2f955045e2ea60d6027cc57c974e72e5e28ea8f"
     url: https://github.com/eoscanada/network-discovery/raw/master/testnet-group2-bootseq.yaml
 
   snapshot:
