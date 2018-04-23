@@ -50,6 +50,10 @@ organization_tagline: The example in the EOS space  # For websites who
                                                     # want to feed
                                                     # from the graph
                                                     # created herein.
+logo_url_1024: "https://example.com/logo_1024x1024.jpg"
+logo_url_256: "https://example.com/logo_256x256.png"
+
+timezone: Africa/Abidjan  # From https://en.m.wikipedia.org/wiki/List_of_tz_database_time_zones, only non-deprecated ones.
 
 launch_data:  # `eos-bios` tooling requirement.
 
