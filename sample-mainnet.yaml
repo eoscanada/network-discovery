@@ -68,14 +68,15 @@ launch_data:  # `eos-bios` tooling requirement.
   # necessary to automate the steps of network boot.
   wingmen:
   - discovery_url: https://github.com/eosexample1/network-discovery/raw/master/mainnet.yaml
-    comment: "because of this and that.."  # optional field
+    comment: "I met the guy, really solid..."  # optional field
     weight: 1.0  # from 0.0 to 1.0, floating point number
   - discovery_url: https://github.com/eosexample2/network-discovery/raw/master/mainnet.yaml
     weight: 0.8
   - discovery_url: https://github.com/eosexample3/network-discovery/raw/master/mainnet.yaml
     weight: 0.2
   - discovery_url: https://github.com/eosexample4/network-discovery/raw/master/mainnet.yaml
-    weight: 0.0  # Just a link in the network, not vouching for them really.
+    comment: "Just learn was 'ls' was.. but he'll ramp up fast I'm sure"
+    weight: 0.0  # Link him on the network, but not vouching for them.
 
   boot_sequence:
     hash: 325d38f8e016cabb55e89838b8715be6da18f00c06d707d1c334b499ed4cff55
