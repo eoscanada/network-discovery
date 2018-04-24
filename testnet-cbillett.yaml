@@ -31,9 +31,9 @@ logo_url_256: "https://storage.googleapis.com/eoscanada/eosio-canada-logo-stacke
 timezone: America/Montreal
 
 launch_data:
-  wingmen: []
-  # - discovery_url: https://github.com/eosexample1/network-discovery/raw/master/mainnet.yaml
-  #   weight: 0.0   # normalized from 0.0 to 1.0
+  wingmen:
+  - discovery_url: https://abourget.keybase.pub/testnet-cbillett-local.yaml
+    weight: 0.0   # normalized from 0.0 to 1.0
 
   boot_sequence:
     hash: "282461996d2372a3e5ef0402a2f955045e2ea60d6027cc57c974e72e5e28ea8f"
@@ -54,6 +54,7 @@ launch_data:
       code:
         hash: "2c63d42a297f8378af806e08ddc5ddbe3aed7a078124d53075dafb7ac6b460e0"
         url: https://gitcdn.link/repo/eoscanada/eos-bios-launch-data/master/contracts/eosio.bios.wasm
+
     eosio.system:
       abi:
         hash: "24dfb654f969f55fcd4a926b44bbe12c95411a502b280a69d927a5a69a4fc256"
@@ -68,6 +69,15 @@ launch_data:
       code:
         hash: "51ec6dee95e0275e4c84e89d41e1fc4d02e5df48b619cd1e2534d8cc45901bf5"
         url: https://gitcdn.link/repo/eoscanada/eos-bios-launch-data/master/contracts/eosio.msig.wasm
+
+    eosio.token:
+      abi:
+        hash: "55ad376feeb6681c50f3b086a9646daede4b34bb3448cb0f5ce30b69ef17c542"
+        url: https://gitcdn.link/repo/eoscanada/eos-bios-launch-data/master/contracts/eosio.token.abi
+      code:
+        hash: "7c6a300874835ad928de4f30712023758157bd50cb423ab039443f56a84167ff"
+        url: https://gitcdn.link/repo/eoscanada/eos-bios-launch-data/master/contracts/eosio.token.wasm
+
     # eosio.unregd:
     #   abi:
     #     hash: ...

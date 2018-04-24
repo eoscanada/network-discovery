@@ -1,21 +1,27 @@
-Network Discovery files for EOS launch
---------------------------------------
+Network Discovery files for EOS.IO Software blockchain launch
+-------------------------------------------------------------
 
 Please read the `sample_mainnet.yaml` file diligently.
 
-This repositoy establishes a protocol for autonomous Block Producers
-participation in an EOS launch.  By linking to their `wingmen`, BPs
-effectively create a graph, weighted according to their trust in their
-peers.
+This repository proposes a protocol for autonomous Block Producers
+participation in an EOS.IO Software based blockchain launch.
 
-The `eos-bios` tool will be able to traverse the graph, fetch any
-changes and run `diff` from a locally cached copy of the graph.
+It is used by the https://github.com/eoscanada/eos-bios program to
+boot or help you join a network.
+
+By linking to their `wingmen`, BPs effectively create a graph,
+weighted according to their trust in their peers.
+
+The `eos-bios` tool will be able to traverse the graph, fetch all
+files references (contracts, snapshots, boot sequences), cache it
+locally and use it to execute things on the network.
 
 The main pattern is:
 * In your discovery data, you put hashes of the content you vouch
   for. Say you created a `snapshot.csv`, you put the hash in there and
   publish the file.  Everyone, using the tooling can download that
   file, check its hash, and know you vouch for that file.
+
 * If you don't feel like running the machinery for the snapshot, but
   you trust entity XYZ, you can copy their download location and hash,
   and vouch for that hash too. This way, not everyone is forced to run
