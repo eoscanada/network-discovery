@@ -17,8 +17,7 @@ social_youtube: https://youtube.com/example
 social_keybase: https://keybase.io/exampleuser  # Potentially used for
                                                 # cryptographic
                                                 # operations. Please
-                                                # prodive this one.
-pgp_public_key: ....
+                                                # provide this one.
 
 eosio_account_name: example  # The account you go by
 eosio_p2p: peering.example.com:9876  # This could be hidden until
