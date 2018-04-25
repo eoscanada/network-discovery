@@ -80,8 +80,8 @@ launch_data:  # `eos-bios` tooling requirement.
 
   boot_sequence:
     hash: 325d38f8e016cabb55e89838b8715be6da18f00c06d707d1c334b499ed4cff55
-    url: https://github.com/eoscanada/network-discovery/raw/master/testnet-group2-bootseq.yaml
-    comment: ""
+    url: https://abourget.keybase.pub/bootseq-dawn3.yaml
+    comment: "Takes into consideration the snapshot, msig, token, system and bios contracts."
 
   snapshot:
     hash: af36de814f2b63484cbc565effc03c3b9277882d01ff5c0c85f924cf4b53a9d5

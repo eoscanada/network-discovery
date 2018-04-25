@@ -37,7 +37,7 @@ launch_data:
 
   boot_sequence:
     hash: "282461996d2372a3e5ef0402a2f955045e2ea60d6027cc57c974e72e5e28ea8f"
-    url: https://gitcdn.link/repo/eoscanada/network-discovery/master/testnet-group2-bootseq.yaml
+    url: https://abourget.keybase.pub/bootseq-dawn3.yaml
 
   snapshot:
     hash: "af36de814f2b63484cbc565effc03c3b9277882d01ff5c0c85f924cf4b53a9d5"
