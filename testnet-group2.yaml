@@ -20,6 +20,7 @@ social_keybase: https://keybase.io/abourget
 eosio_account_name: eoscanada
 eosio_p2p: group2.eoscanada.com:9876
 eosio_http: http://group2.eoscanada.com
+eosio_appointed_block_producer_signing_key: EOS8NijGLHT8WyDmt2nqMwfP1hr8EiYx5JCYBWSP9S26WgbeugvSJ
 eosio_initial_authority:  # To be injected in a newly created network where you participate.
   owner:
     threshold: 1
@@ -31,7 +32,13 @@ eosio_initial_authority:  # To be injected in a newly created network where you 
     keys:
     - public_key: EOS8NijGLHT8WyDmt2nqMwfP1hr8EiYx5JCYBWSP9S26WgbeugvSJ
       weight: 1
-eosio_appointed_block_producer_signing_key: EOS8NijGLHT8WyDmt2nqMwfP1hr8EiYx5JCYBWSP9S26WgbeugvSJ
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 website: "https://www.eoscanada.com"
 introduction_post_url: "https://steemit.com/eos/@eos-canada/introducing-eos-canada-a-leading-block-producer-candidate"

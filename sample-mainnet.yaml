@@ -36,6 +36,13 @@ eosio_initial_authority:  # To be injected in a newly created network where you 
     keys:
     - public_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
       weight: 1
+  recovery:
+    threshold: 1
+    accounts:
+    - permission:
+        actor: eosio
+        permission: active
+      weight: 1
 
 # The following one is used by the boot to setup the initial appointed
 # block producer's signing key.  It is not used elsewhere. If you
