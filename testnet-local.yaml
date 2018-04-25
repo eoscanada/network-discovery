@@ -4,7 +4,7 @@
 
 testnet: true
 
-eosio_account_name: eos.freezing
+eosio_account_name: eos.local
 eosio_appointed_block_producer_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 eosio_initial_authority:  # To be injected in a newly created network where you participate.
   owner:
@@ -25,7 +25,7 @@ eosio_initial_authority:  # To be injected in a newly created network where you 
         permission: active
       weight: 1
 
-organization_name: EOS Freezing
+organization_name: EOS Local
 
 launch_data:
   wingmen: []
