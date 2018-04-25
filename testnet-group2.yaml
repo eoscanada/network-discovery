@@ -1,3 +1,7 @@
+#
+# This is the launch file used by EOS Canada to link to the Group 2 proposed by EOS Go
+#
+
 testnet: true
 
 email_support: support@eoscanada.com
