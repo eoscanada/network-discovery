@@ -1,0 +1,3 @@
+https://abourget.keybase.pub/testnet-cbillett.yaml
+https://abourget.keybase.pub/testnet-blastx.yaml
+https://abourget.keybase.pub/testnet-votebot.yaml

@@ -114,6 +114,13 @@ launch_data:  # `eos-bios` tooling requirement.
       code:
         hash: 51ec6dee95e0275e4c84e89d41e1fc4d02e5df48b619cd1e2534d8cc45901bf5
         url: https://github.com/eoscanada/eos-bios-launch-data/raw/master/contracts/eosio.msig.wasm
+    eosio.token:
+      abi:
+        hash: "55ad376feeb6681c50f3b086a9646daede4b34bb3448cb0f5ce30b69ef17c542"
+        url: https://gitcdn.link/repo/eoscanada/eos-bios-launch-data/master/contracts/eosio.token.abi
+      code:
+        hash: "7c6a300874835ad928de4f30712023758157bd50cb423ab039443f56a84167ff"
+        url: https://gitcdn.link/repo/eoscanada/eos-bios-launch-data/master/contracts/eosio.token.wasm
     # eosio.unregd:
     #   abi:
     #     hash: ...
