@@ -85,7 +85,7 @@ launch_data:  # `eos-bios` tooling requirement.
 
   snapshot:
     hash: af36de814f2b63484cbc565effc03c3b9277882d01ff5c0c85f924cf4b53a9d5
-    url: https://github.com/eosdublin/eos-bios-launch-data/raw/master/snapshot/snapshot.csv
+    url: https://github.com/eosdublin/eos-bios-launch-data/raw/master/snapshot/snapshot_290.csv
     comment: "Built by Rob on Nov 21st 2016 on his machine."
   # snapshot_unregistered:
   #   hash:

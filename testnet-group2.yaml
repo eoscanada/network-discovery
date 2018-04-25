@@ -51,7 +51,7 @@ launch_data:
 
   snapshot:
     hash: af36de814f2b63484cbc565effc03c3b9277882d01ff5c0c85f924cf4b53a9d5
-    url: https://github.com/eoscanada/eos-bios-launch-data/raw/master/snapshot/snapshot.csv
+    url: https://github.com/eoscanada/eos-bios-launch-data/raw/master/snapshot/snapshot_290.csv
 
   contracts:
     eosio.bios:
