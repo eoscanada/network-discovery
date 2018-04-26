@@ -1,13 +1,18 @@
 Network Discovery files for EOS.IO Software blockchain launch
 -------------------------------------------------------------
 
-Please read the `sample_mainnet.yaml` file diligently.
-
 This repository proposes a protocol for autonomous Block Producers
 participation in an EOS.IO Software based blockchain launch.
 
 It is used by the https://github.com/eoscanada/eos-bios program to
 boot or help you join a network.
+
+* [Sample discovery file](https://github.com/eoscanada/eos-bios/blob/master/sample_config/my_discovery_file.yaml)
+* [Full sample configuration for `eos-bios`](https://github.com/eoscanada/eos-bios/tree/master/sample_config)
+
+### The `discovery file`
+
+This descrbesRefer to the _Sample discovery file_ above.
 
 By linking to their `wingmen`, BPs effectively create a graph,
 weighted according to their trust in their peers.
