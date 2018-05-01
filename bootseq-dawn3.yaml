@@ -3,7 +3,7 @@ boot_sequence:
   label: Setting eosio.bios code for account eosio
   data:
     account: eosio
-    contract_name_ref: eosio.bios  # References the `contract_hashes` up here, and the `contracts` section of the `local_config.yaml`
+    contract_name_ref: eosio.bios  # References the `contract_hashes` up here, and the `contracts` section of the discovery file
 
 - op: system.newaccount
   label: Create account eosio.msig
